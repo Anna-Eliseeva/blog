@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition:all.6s ease;
+    -ms-transition:all.6s ease;
+    -o-transition:all.6s ease;
+    -moz-transition:all.6s ease;
+    -webkit-transition:all.6s ease;
+}
+
+a:hover {
+    color: #FFF700;
+    transition:all.6s ease;
+    -ms-transition:all.6s ease;
+    -o-transition:all.6s ease;
+    -moz-transition:all.6s ease;
+    -webkit-transition:all.6s ease;
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+#content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    padding: 15px;
+    background-color: #2252FF;
+    font-size: 1.4em;
+    height: 25px;
+}
+
+
+#left, #right {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+#header > #right a {
+    float: right;
+    margin-left: 15px;
+}
+
+#header > #right a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.block {
+    background-color: #fff;
+    height: 100%;
+    padding: 15px;
+    margin:15px;
+    min-height: 200px;
+}
+
+.input {
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.input:focus {
+    border: 2px solid #1BFF00;
+}
+
+.button {
+    padding: 5px;
+    font-size: 18px;
+    border: 2px #fafafa solid;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #fafafa;
+    border: 2px #000 solid;
+}
+
+.hide {
+    display: none;
+    background-color: #000;
+    z-index: 999;
+}
+
+.hide a {
+    display: block;
+}
+
+.left:hover .hide {
+    display: block;
+}
